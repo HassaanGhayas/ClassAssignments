@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* :root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+} */
+
+body{
+  min-height: 100vh;
+}
+
+
+.hover-scale:hover{
+  scale: 1.1;
+}
+
+.btn-transition{
+  transition: background-color, 1s, color, 1s;
+}
+
+.grid-layout{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.grid-layout-two{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(153px, 1fr));
+  gap: 16px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+@media (min-width: 1024px){
+  .grid-layout-two{
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  }
+}
