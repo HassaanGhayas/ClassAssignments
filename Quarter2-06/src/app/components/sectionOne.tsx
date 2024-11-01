@@ -50,7 +50,7 @@ export default function SectionOne() {
                 Apple AirPods <b>Max</b>
               </span>
               <p className="text-[14px]">
-                Computational audio. Listen, it's powerful
+                Computational audio. Listen, it&apos;s powerful
               </p>
             </div>
           </div>

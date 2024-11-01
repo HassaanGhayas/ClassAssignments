@@ -211,7 +211,7 @@ export default function SectionThree() {
             </svg>
           </span>
           <Image src={ipad} alt="ipad" />
-          <p>Apple iPad 9 10.2" 64GB Wi-Fi Silver (MK2L3) 2021</p>
+          <p>Apple iPad 9 10.2&quot; 64GB Wi-Fi Silver (MK2L3) 2021</p>
           <span className="font-semibold text-[24px]">$398</span>
           <span className="max-w-[200px] py-[12px] w-full bg-black text-white rounded-lg hover:bg-transparent border-2 hover:text-black btn-transition border-black">
             Buy Now
